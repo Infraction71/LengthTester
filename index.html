@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Almost all of this code was based off of my mph conversion-->
 <!-- https://mdbootstrap.com/md-bootstrap-cdn/ -->
 <!-- Material Design for Bootstrap fonts and icons -->
 
@@ -16,7 +17,7 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="src/main.js"></script>
+    <script src="main.js"></script>
 
 </head>
 
@@ -24,19 +25,17 @@
    
     <main id="fromstyle">
 
-        <h2>Convert MPH to KPH</h2>
+        <h2>Get Word Length</h2>
         
-            <label>Word: </label><input type="text" id="wordIn"><br>
+            <label>Word: </label><input type="text" name="wordIn" id="wordIn"><br>
             
-            <button   onclick="getLength()">Get word lenght </button>  
+            <button   onclick="getLength()">Get word length</button>  
             <br>
            
         
         <p id="wordLenOut">The word length is: </p>
     </main>
-    <footer>
-        <p>Photos and code: &copy;2020 Matthew Berry</p>
-    </footer>
+    
 </body>
 
 </html>
